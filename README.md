@@ -9,11 +9,11 @@ Hello! Im currently learning Data Analytics and working on projects to improve m
 
 ## PROJECTS ##
 
-# EXCEL #
+### EXCEL
 
-# SQL #
+### SQL
 
-# POWER BI #
+### POWER BI 
 
 
 ## GOALS ##
