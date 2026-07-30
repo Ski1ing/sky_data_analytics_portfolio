@@ -10,6 +10,7 @@ Hello! Im currently learning Data Analytics and working on projects to improve m
 ## PROJECTS ##
 
 ### EXCEL
+- Sales Performance Analysis
 
 ### SQL
 
