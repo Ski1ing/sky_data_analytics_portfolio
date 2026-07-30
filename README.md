@@ -3,9 +3,9 @@
 Hello! Im currently learning Data Analytics and working on projects to improve my skills in Excel, SQL, and Power BI.
 
 # SKILLS #
--Excel
--SQL (MySQL)
--Power BI (Learning)
+- Excel
+- SQL (MySQL)
+- Power BI (Learning)
 
 ## PROJECTS ##
 
