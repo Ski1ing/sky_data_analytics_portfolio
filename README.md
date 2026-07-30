@@ -2,12 +2,12 @@
 
 I'm currently learning Data Analytics and building projects to develop my skills in Excel, SQL, and Power BI.
 
-# SKILLS #
+# Skills #
 - Excel
 - SQL (MySQL)
 - Power BI (Learning)
 
-## PROJECTS ##
+## Projects ##
 
 ### EXCEL
 - [Sales Performance Analysis](./Sales-Performance-Analysis/)
@@ -18,8 +18,8 @@ I'm currently learning Data Analytics and building projects to develop my skills
 ### POWER BI 
 *Projects coming soon.*
 
-## GOALS ##
+## Goals ##
 1. Build real-world data analysis projects.
-2. Learn Advanced SQL.
-3. Create interactive and easy to understand dashboards.
+2. Learn Advanced SQL concepts.
+3. Create interactive and easy-to-understand dashboards.
 4. Continue expanding my portfolio.
