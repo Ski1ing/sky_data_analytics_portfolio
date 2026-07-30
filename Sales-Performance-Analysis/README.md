@@ -25,7 +25,7 @@ performance, customer performance, and geographic performance.
 
 
 ## Dashboard
-![Sales Performance Dashboard]<img width="902" height="266" alt="Dashboard_Preview" src="https://github.com/user-attachments/assets/9d80d510-6c52-4ea1-821d-e83c79ce3422" />
+![Sales Performance Dashboard](Dashboard_Preview.png)
 
 
 
