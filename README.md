@@ -1,6 +1,6 @@
 # sky_data_analytics_portfolio
 
-Hello! Im currently learning Data Analytics and working on projects to improve my skills in Excel, SQL, and Power BI.
+I'm currently learning Data Analytics and building projects to develop my skills in Excel, SQL, and Power BI.
 
 # SKILLS #
 - Excel
@@ -10,12 +10,13 @@ Hello! Im currently learning Data Analytics and working on projects to improve m
 ## PROJECTS ##
 
 ### EXCEL
-- Sales Performance Analysis
+- [Sales Performance Analysis](./Sales-Performance-Analysis/)
 
 ### SQL
+*Projects coming soon.*
 
 ### POWER BI 
-
+*Projects coming soon.*
 
 ## GOALS ##
 1. Build real-world data analysis projects.
