@@ -5,6 +5,10 @@
 This project analyzes sales data using Microsoft Excel to evaluate sales trends, product
 performance, customer performance, and geographic performance.
 
+## Dataset
+The dataset used in this project is a publicly available sample sales dataset obtained from Kaggle. It was used for 
+learning and portfolio purposes. The dataset contains information about orders, products, customers, sales, dates, and geographic locations.
+Data Source: [Kaggle - Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data/data)
 
 ## Tools Used
 - Microsoft Excel
