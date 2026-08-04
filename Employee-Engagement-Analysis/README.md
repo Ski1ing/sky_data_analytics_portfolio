@@ -24,7 +24,7 @@ employee sentiment.
 - Verifying data consistency before analysis
 
 ## Dashboard Preview
-![Employee Engagement Dashboard]<img width="926" height="265" alt="Dashboard_Preview(Employee Engagement Analysis)" src="https://github.com/user-attachments/assets/03ab2537-932d-48a2-a109-8836dc4e66f8" />
+![Employee Engagement Dashboard](Dashboard_Preview(Employee_Engagement_Analysis).png)
 
 ## Business Insights
 - The highest-rated survey question was: "I know what is expected of me at work." (Average: 3.49). This suggests employees generally understand their responsibilities and performance expectations.
