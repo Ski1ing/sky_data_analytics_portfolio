@@ -1,4 +1,19 @@
 # Customer Churn Analysis
 
 ## Project Overview
-This project analyzes customer churn data using Microsoft Excel
+This project analyzes customer churn data using Microsoft Excel to identify factors that influence customer retention.
+It includes data cleaning, PivotTables, interactive dashboard, and business insights to help understand customer behavior and churn patterns.
+
+Dataset: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn?utm_source=chatgpt.com)
+
+## Tools Used
+- Microsoft Excel
+- PivotTables
+- Excel Formulas
+
+## Data Cleaning
+- Check for missing values
+- Reviewed for duplicate values
+- Standardized data formatting
+- Verified data consistency
+- Created helper columns for analysis
