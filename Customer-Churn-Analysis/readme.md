@@ -17,3 +17,8 @@ Dataset: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastcha
 - Standardized data formatting
 - Verified data consistency
 - Created helper columns for analysis
+
+## Dashboard Preview
+![Customer Churn Dashboard]<img width="1861" height="514" alt="image" src="https://github.com/user-attachments/assets/81742198-270b-4af8-a0b3-021fd6afddb2" />
+
+## Business Insights
