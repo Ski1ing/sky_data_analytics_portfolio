@@ -12,6 +12,7 @@ I'm currently learning Data Analytics and building projects to develop my skills
 ### EXCEL
 - [Sales Performance Analysis](./Sales-Performance-Analysis/)
 - [Employee Engagement Analysis](./Employee-Engagement-Analysis/)
+- [Customer Churn Analysis](./Customer-Churn-Analysis/)
 
 ### SQL
 *Projects coming soon.*
