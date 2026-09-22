@@ -21,7 +21,7 @@ Dataset: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastcha
 - Converting Senior Citizen values from '0' and '1' to 'No' and 'Yes'
 
 ## Dashboard Preview
-<img width="1861" height="514" alt="image" src="https://github.com/user-attachments/assets/81742198-270b-4af8-a0b3-021fd6afddb2" />
+<img width="835" height="248" alt="DashboardPreview(CustomerChurnAnalysis)" src="https://github.com/user-attachments/assets/29937869-8d6f-4aae-9128-c7030ca0b150" />
 
 ## Business Insights
 - Out of 7,043 customers, 1,896 customers churned, resulting in an overall churn rate of 26.54%. This indicates that approximately one out of four customers left the company, highlighting customer retention as a significant area of concern.
