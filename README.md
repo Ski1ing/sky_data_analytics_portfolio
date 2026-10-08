@@ -15,7 +15,7 @@ I'm currently learning Data Analytics and building projects to develop my skills
 - [Customer Churn Analysis](./Customer-Churn-Analysis/)
 
 ### SQL
-- [Restaurant Sales Analysis](./Restaurant-Sales-Analysis(SQL)/)
+- [Restaurant Sales Analysis](./Restaurant-Sale-Analysis(SQL)/)
 
 ### POWER BI 
 *Projects coming soon.*
