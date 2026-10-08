@@ -144,3 +144,121 @@ GROUP BY
 	menu_items.category
 ORDER BY
 	total_revenue DESC;
+
+/*Question14: Which date had the most orders?*/
+SELECT
+	order_date,
+    COUNT(order_date) AS total_orders
+FROM
+	order_details
+GROUP BY
+	order_date
+ORDER BY
+	total_orders DESC
+LIMIT 1;
+
+/*Question15: Which date generated the most revenue?*/
+SELECT 
+	order_date,
+    SUM(menu_items.price) AS total_revenue
+FROM 
+	order_details
+JOIN menu_items
+	ON order_details.item_id = menu_items.menu_item_id
+GROUP BY 
+	order_date
+ORDER BY 
+	total_revenue DESC
+LIMIT 1;
+
+/*Question16: Which hour of the day had the most orders?*/
+SELECT 
+	HOUR(order_time) AS order_hour,
+    COUNT(order_id) AS total_orders
+FROM
+	order_details
+GROUP BY 	
+	order_hour
+ORDER BY
+	total_orders DESC
+LIMIT 1;
+
+/*Question17: Which hour of the the day generated the most revenue?*/
+SELECT
+	HOUR(order_time) AS order_hour,
+    SUM(menu_items.price) AS total_revenue
+FROM
+	order_details
+JOIN menu_items
+	ON order_details.item_id = menu_items.menu_item_id
+GROUP BY 
+	order_hour
+ORDER BY 
+	total_revenue DESC
+LIMIT 1;
+
+/*Question18: How does revenue vary by day?*/
+SELECT
+	DAYNAME(order_date) AS day_of_week,
+    SUM(menu_items.price) AS total_revenue
+FROM
+	order_details
+JOIN menu_items
+	ON order_details.item_id = menu_items.menu_item_id
+GROUP BY
+	day_of_week
+ORDER BY 
+	total_revenue DESC;
+    
+/*Question19: What are the top 3 highest-revenue in each item category?*/
+WITH item_revenue AS (
+SELECT
+	menu_items.category,
+    menu_items.item_name,
+    SUM(menu_items.price) AS total_revenue
+FROM 
+	menu_items
+JOIN order_details
+	ON menu_items.menu_item_id = order_details.item_id
+GROUP BY 
+	menu_items.item_name,
+    menu_items.category
+),
+ranked_items AS (
+	SELECT
+		category,
+        item_name,
+        total_revenue,
+        ROW_NUMBER() OVER (
+			PARTITION BY category
+            ORDER BY total_revenue DESC
+        ) AS revenue_rank
+	FROM item_revenue
+)
+SELECT
+	category,
+    item_name,
+    total_revenue,
+    revenue_rank
+FROM 
+	ranked_items
+WHERE
+	revenue_rank <= 3
+ORDER BY 
+	category,
+    revenue_rank;
+
+/*Question20: What is the average revenue generated per order?*/
+SELECT
+    ROUND(AVG(order_revenue), 2) AS average_revenue_per_order 
+FROM (
+	SELECT
+		order_details.order_id,
+        SUM(menu_items.price) AS order_revenue
+	FROM 
+		order_details
+	JOIN menu_items
+		ON order_details.item_id = menu_items.menu_item_id
+	GROUP BY 
+		order_details.order_id
+) AS order_totals;
